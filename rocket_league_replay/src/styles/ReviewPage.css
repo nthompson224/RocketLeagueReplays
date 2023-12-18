@@ -1,0 +1,145 @@
+.post-base {
+  width: 100%;
+  height: 100vh;
+  padding-top: 175px;
+  background: -webkit-linear-gradient(
+    rgba(36, 73, 151, 255) rgba(84, 164, 234, 255)
+  );
+  background: linear-gradient(rgba(37, 73, 150, 0.95), rgba(0, 0, 0, 0.95));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+}
+
+.post .replay-tags {
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.title a {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.add-comment {
+  border-bottom: 1px solid #fff;
+  padding: 20px;
+}
+
+.add-comment textarea {
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+
+.post-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title a:hover {
+  background-color: transparent;
+  border: none;
+}
+
+.comment {
+  width: 25%;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 15px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #70a6ec;
+  box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.5);
+}
+
+.post-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title h4 {
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+li.comment-item {
+  list-style-type: none;
+}
+
+.post {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-right: -35px;
+}
+
+.description {
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.header h2 {
+  margin-left: 20px;
+}
+
+.post-header {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.add-comment-button {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.comments-header {
+  display: flex;
+  justify-content: left;
+}
+
+.comment-content {
+  margin: 10px;
+}

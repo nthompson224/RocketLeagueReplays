@@ -1,0 +1,12 @@
+{
+  "short_name": "RLReplay",
+  "name": "Rocket League Replay",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
