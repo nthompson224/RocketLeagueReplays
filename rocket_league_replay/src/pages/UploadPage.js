@@ -183,7 +183,7 @@ function UploadPage() {
 
   return (
     <IconContext.Provider value={{ size: "1em" }}>
-      <div className="page-base">
+      <div className="upload-base">
         <NavBar user={userID} />
         <div className="container">
           <div className="upload-content">
