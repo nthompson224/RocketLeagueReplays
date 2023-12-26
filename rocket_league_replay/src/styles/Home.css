@@ -15,14 +15,6 @@
   margin: 10px;
 }
 
-.field label {
-  margin: 5px;
-}
-
-.field label input {
-  margin: 5px;
-}
-
 .author {
   display: flex;
   flex-direction: row;
@@ -154,11 +146,6 @@ ul.replays li .main .replay-container {
 
 .download > label:hover {
   color: #519fe7;
-  cursor: pointer;
-}
-
-.delete > label:hover {
-  color: red;
   cursor: pointer;
 }
 
