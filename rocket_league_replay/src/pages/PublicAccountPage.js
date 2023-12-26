@@ -108,7 +108,7 @@ function PublicAccountPage(props) {
   }, [location]);
 
   return (
-    <div className="home-page-base">
+    <div className="base">
       <NavBar user={userID} />
       <div className="main">
         <div className="account-header">
