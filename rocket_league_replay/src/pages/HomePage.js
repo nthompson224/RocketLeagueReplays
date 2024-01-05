@@ -210,9 +210,9 @@ function HomePage() {
   }, [userID, loginRedirect]);
 
   return (
-    <div className="home-page-base">
+    <div className="base">
       <NavBar user={userID} />
-      <div className="home">
+      <div className="main">
         <div className="search">
           <div className="field">
             <label>

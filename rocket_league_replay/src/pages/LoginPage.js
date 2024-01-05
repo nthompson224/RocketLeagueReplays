@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { supabase } from "../lib/helper/supabaseClient";
 
-import "../styles/App.css";
 import "../styles/LoginRegister.css";
 
 function LoginPage() {

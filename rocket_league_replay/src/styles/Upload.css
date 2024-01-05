@@ -1,3 +1,17 @@
+.upload-base {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-linear-gradient(
+    rgba(36, 73, 151, 255) rgba(84, 164, 234, 255)
+  );
+  background: linear-gradient(rgba(37, 73, 150, 0.95), rgba(0, 0, 0, 0.95));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+}
+
 .container {
   width: 100%;
   height: 100vh;
